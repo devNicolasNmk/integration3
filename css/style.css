@@ -23,7 +23,7 @@ h1{
 }
 
 h2{
-    font-size:22px;
+    font-size:34px;
     text-align: center;
 }
 
@@ -145,13 +145,21 @@ h3{
 .travail{
     width: 1000px;
     margin: 0 auto;
-    
-   
+      
 }
 
 #wrap3{
     height: 615px;
 }
+
+#wrap3 .travail {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
 #wrap3 .travail div h1{
     padding-top: 70px;
 }
@@ -170,13 +178,56 @@ h3{
 }
 
 #wrap3 .travail .content p{
-    margin-bottom : 15px;
-    margin-top : 10px;
+    margin-bottom : 0px;
+    margin-top : 0px;
+    line-height: 35px
 }
+#wrap3 .travail .content p:nth-of-type(1){
+   margin-top: 30px;
+}
+#wrap3 .travail .content p:nth-of-type(3){
+    margin-bottom: 90px;
+ }
 
 #wrap4{
     background-color:rgba(39, 174, 97,.8);
     height: 600px;
+    color: #fff;
+}
+
+#wrap4 .travail div h1{
+    padding-top: 70px;
+}
+#wrap4 .travail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#wrap4 .travail .content p{
+    margin-bottom : 0px;
+    margin-top : 0px;
+    line-height: 35px;
+    color:rgba(255,255,255,.8);
+}
+
+#wrap4 .travail .content p:nth-of-type(1){
+   margin-top: 30px;
+}
+#wrap4 .travail .content p:nth-of-type(3){
+    margin-bottom: 90px;
+ }
+ #wrap4 .travail div h3{
+     color: rgba(255,255,255,.5)
+ }
+
+#button-wrap4 a {
+    color: rgba(39, 174, 97,.8);
+    text-decoration: none;
+
+}
+.content p a{
+    color: #fff;
 }
 
 #wrap5{
@@ -186,8 +237,6 @@ h3{
 
 footer{
     display: flex;
-
     align-items: center;
-
     justify-content: center;
 }
